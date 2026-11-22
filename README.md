@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="banner-pro.png" alt="Bhawesh Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px;" />
+  <img src="banner-slim.png" alt="Bhawesh Banner" width="100%" style="border-radius: 10px; margin-bottom: 20px;" />
 
   # ⚡ BHAWESH ⚡
   ### **Principal DevSecOps Architect & Enterprise AI Systems Specialist**
