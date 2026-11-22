@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="Banner.png" alt="Bhawesh Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px;" />
+  <img src="banner.png" alt="Bhawesh Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px;" />
 
   # ⚡ BHAWESH ⚡
   ### **Staff DevSecOps Architect & Enterprise AI Systems Specialist**
