@@ -162,6 +162,45 @@ flowchart TD
 
 ---
 
+### 5. 📊 [gitops-observability-stack](https://github.com/Bhawesh-DevOps/gitops-observability-stack)
+> **Production Kubernetes monitoring and SRE alerting platform with ArgoCD, Prometheus Operator, Grafana, and Alertmanager.**
+
+* **GitOps Observability Architecture:** Declarative deployment via ArgoCD App-of-Apps pattern, automated Grafana dashboards as code, and ServiceMonitor auto-discovery.
+* **SLO & SRE Guardrails:** Production PromQL alerts monitoring P99 latency breaches (>350ms), Pod CrashLoopBackOff rates, and multi-window burn rates.
+* **Key Artifacts:**
+  * 🔗 [Explore Observability Stack Repository →](https://github.com/Bhawesh-DevOps/gitops-observability-stack)
+  * 🐙 [ArgoCD Root Application Manifest](https://github.com/Bhawesh-DevOps/gitops-observability-stack/blob/main/argocd/root-app.yaml)
+  * ⚙️ [Production Prometheus & Grafana Values](https://github.com/Bhawesh-DevOps/gitops-observability-stack/blob/main/helm/kube-prometheus-stack/values-production.yaml)
+  * 🚨 [Enterprise PromQL SLO Alert Rules](https://github.com/Bhawesh-DevOps/gitops-observability-stack/blob/main/prometheus-rules/slo-alerts.yaml)
+
+---
+
+### 6. 🕸️ [secure-microservices-mesh](https://github.com/Bhawesh-DevOps/secure-microservices-mesh)
+> **Production microservices deployment secured by Istio Service Mesh with Strict mTLS, Canary 90/10 traffic splitting, and non-root Docker builds.**
+
+* **Zero-Trust Mesh:** PeerAuthentication enforcing Strict mutual TLS across all microservice pods, RBAC AuthorizationPolicies restricting inter-service communication.
+* **Traffic Engineering:** VirtualService declarative Canary routing (90% baseline / 10% canary), automatic Circuit Breaking, and outlier pod ejection.
+* **Key Artifacts:**
+  * 🔗 [Explore Secure Microservices Mesh Repository →](https://github.com/Bhawesh-DevOps/secure-microservices-mesh)
+  * 🔀 [Istio Canary VirtualService & Circuit Breaker](https://github.com/Bhawesh-DevOps/secure-microservices-mesh/blob/main/istio/virtual-service-canary.yaml)
+  * 🔒 [Strict mTLS & Authorization Policy](https://github.com/Bhawesh-DevOps/secure-microservices-mesh/blob/main/istio/peer-authentication-strict.yaml)
+  * 🐳 [Multi-Stage Hardened Dockerfile](https://github.com/Bhawesh-DevOps/secure-microservices-mesh/blob/main/Dockerfile)
+
+---
+
+### 7. 💥 [automated-chaos-resilience-k8s](https://github.com/Bhawesh-DevOps/automated-chaos-resilience-k8s)
+> **Cloud-native Chaos Engineering and resilience platform using Chaos Mesh with automated Prometheus steady-state hypothesis testing.**
+
+* **Chaos Drills:** Scheduled Pod-Kill experiments validating PodDisruptionBudgets (PDB) and NetworkChaos introducing 250ms packet latency on ingress paths.
+* **Automated Verification:** Python steady-state verification script evaluating Prometheus availability (>99.9%) and error rates (<0.1%) during active chaos.
+* **Key Artifacts:**
+  * 🔗 [Explore Chaos & Resilience Platform Repository →](https://github.com/Bhawesh-DevOps/automated-chaos-resilience-k8s)
+  * 🌪️ [Pod-Kill Chaos Experiment](https://github.com/Bhawesh-DevOps/automated-chaos-resilience-k8s/blob/main/experiments/pod-failure-experiment.yaml)
+  * 🌐 [Network Latency Injection Policy](https://github.com/Bhawesh-DevOps/automated-chaos-resilience-k8s/blob/main/experiments/network-latency-experiment.yaml)
+  * 🧪 [Steady-State SLO Verifier Script](https://github.com/Bhawesh-DevOps/automated-chaos-resilience-k8s/blob/main/scripts/verify_steady_state.py)
+
+---
+
 ## 🛠️ The Universe-Class Technology Stack
 
 <div align="center">
