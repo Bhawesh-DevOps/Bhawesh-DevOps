@@ -3,7 +3,7 @@
   <img src="banner-pro.png" alt="Bhawesh Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px;" />
 
   # ⚡ BHAWESH ⚡
-  ### **Staff DevSecOps Architect & Enterprise AI Systems Specialist**
+  ### **Principal DevSecOps Architect & Enterprise AI Systems Specialist**
   
   <p align="center">
     <b>Architecting Autonomous Zero-Trust Cloud Platforms &bull; Bulletproof DevSecOps Pipelines &bull; Agentic AI Operations</b>
