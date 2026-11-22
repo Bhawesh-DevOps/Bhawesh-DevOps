@@ -63,6 +63,13 @@
 
 ## 🏛️ End-to-End Enterprise Architecture Topology
 
+<div align="center">
+  <img src="architecture.svg" alt="End-to-End Enterprise Architecture Topology" width="100%" style="border-radius: 12px; box-shadow: 0 12px 36px rgba(0, 242, 254, 0.15); margin: 15px 0;" />
+</div>
+
+<details>
+<summary><b>🔍 View Raw Mermaid Architecture Definition</b></summary>
+
 ```mermaid
 flowchart TD
     subgraph Core["🏛️ Architecture & Governance"]
@@ -97,6 +104,8 @@ flowchart TD
     class G,L,M green;
     class D,I,J,K purple;
 ```
+
+</details>
 
 ---
 
